@@ -1,0 +1,76 @@
+@import url("http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+* {
+  font-family: 'SpoqaHanSans';
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  padding: 15px;
+}
+
+.nav-logo {
+  height: 100%;
+}
+
+.nav-link {
+  margin-left: 20px;
+  color: #FFF;
+  text-decoration-line: none;
+}
+
+.section-content {
+  padding: 30px;
+}
+h1, h2, h4 {
+  text-align: center;
+  color: #EEE;
+  font-weight: 400 !important;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+
+
+
+@media (max-width: 450px) {
+  .nav-link {
+    display: none;
+  }
+}
+#section-about {
+  background-image: url(imgs/main.png);
+  background-size: cover;
+}
+#slide-consulting {
+  background-image: url(imgs/consulting.jpg);
+  background-size: cover;
+}
+#slide-campaign {
+  background-image: url(imgs/campaign.png);
+  background-size: cover;
+}
+#slide-solution {
+  background-image: url(imgs/solution.png);
+  background-size: cover;
+}
+#section-contacts {
+  background-image: url(imgs/contact.png);
+  background-size: cover;
+}
+
+.logo-spacing {
+  margin-top: 32px;
+  margin-right: 16px;
+}

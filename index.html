@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Block indexing on search engines -->
+  <meta name="robots" content="noindex">
+  <title>#include</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css" />
+</head>
+
+<body>
+  <nav>
+    <img src="imgs/logo.png" class="nav-logo">
+    <a href="#section-about" class="nav-link">Who we are</a>
+    <a href="#section-products" class="nav-link">What we do</a>
+    <a href="#section-contact" class="nav-link">Contact us</a>
+  </nav>
+  <main>
+    <div id="fullpage">
+      <div id="section-about" class="section">
+        <div class="section-content">
+          <h1>A safer internet for everyone</h1>
+          <h2>#include는 정보보안 인식 개선에 앞장서는 사회적 기업입니다.</h2>
+        </div>
+      </div>
+      <div class="section">
+        <div class="slide" id="slide-consulting" data-anchor="slide1">
+          <div class="section-content">
+            <h1>컨설팅</h1>
+            <h2>#include이 가진 기술진의 전문성으로 보안 문제를 합리적인 가격으로 해결해 드립니다.</h2>
+          </div>
+        </div>
+        <div class="slide" id="slide-campaign" data-anchor="slide2">
+          <div class="section-content">
+            <h1>정보보안 인식 개선 활동</h1>
+            <h2>캠페인, 대중 강연, CTF 개최 등을 통해 정보보안에 대한 인식을 확산시킵니다.</h2>
+          </div>
+        </div>
+        <div class="slide" id="slide-solution" data-anchor="slide2">
+          <div class="section-content">
+            <h1>솔루션</h1>
+            <h2>정보보안 전문 인력을 두기 어려운 기업에서 데이터를 보호할 수 있도록 도와드립니다.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section-contacts">
+        <div class="section-content">
+          <h1>Contact Us</h1>
+          <h4>
+            <i class="fas fa-phone"></i>&nbsp; +82 44 123 1234</h4>
+          <h4>
+            <i class="fas fa-fax"></i>&nbsp; +82 44 123 4567</h4>
+          <h4>
+            <i class="fas fa-envelope"></i>&nbsp; contact@inclu.de</h4>
+          <h4>
+            <i class="fas fa-building"></i>&nbsp; Dalbit-1 ro, Sejong-si, South Korea (30066)</h4>
+          <h4>
+            <i class="fab fa-facebook logo-spacing"></i>
+            <i class="fab fa-twitter logo-spacing"></i>
+            <i class="fab fa-github logo-spacing"></i>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript">
+    $('#fullpage').fullpage({
+      anchors: ['section-about', 'section-products', 'section-contact'],
+    });
+  </script>
+</body>
+</html>
